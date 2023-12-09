@@ -1,0 +1,37 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vh;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(212, 194, 194);
+    position: sticky;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    filter: drop-shadow(0 0 0.5rem #228008);
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#img1, #img2, #img3{
+    width: 10em;
+    height: 10em;
+    margin: 1em;
+}
